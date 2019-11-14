@@ -15,3 +15,5 @@ def decode(str):
 
         return format(num, 'b').zfill(16)
     bin_inst = "111"
+
+
