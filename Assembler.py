@@ -11,5 +11,9 @@ if __name__ == "__main__":
         sys.exit()
     pr.fileReader(filepath)
 
+    new_file = filepath.strip("asm") + ".hack"
+    f = open(new_file, "a+")
     for inst in gb.CLEAN_LINES:
-        dc.decode(inst)
+        line = dc.decode(inst)
+        f.write(line)
+    f.close()
