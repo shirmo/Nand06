@@ -8,7 +8,7 @@ def lineHandler(line):
         if line[i] + line[i + 1] == gb.COMMENT:
             line = line[:i]
             break
-
+    line = line.strip(" ")
     if len(line) == 0:
         return
 
