@@ -23,7 +23,7 @@ def lineHandler(line):
 
     if line[0] == START and line[len(line) - 1] == END:
         line = line[1:len(line) - 1]
-        symbol_dict[line] = len(CLEAN_LINES)
+        gb.symbol_dict[line] = len(CLEAN_LINES)
     CLEAN_LINES.append(line)
     return
 
@@ -37,6 +37,3 @@ def fileReader(file):
             line = fp.readline()
             cnt += 1
         fp.close()
-
-def main():
-    filepath = sys.argv[1]
