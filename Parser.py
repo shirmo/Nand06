@@ -21,4 +21,4 @@ def lineHandler(line):
     if len(line) == 0:
         return 0
     if line[0] == START and line[len(line) - 1] == END:
-        symbol_dict[line[1,len(line) - 1]]=len(CLEAN_LINES)
+        symbol_dict[line[1:len(line) - 1]] = len(CLEAN_LINES)
