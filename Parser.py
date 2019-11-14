@@ -1,4 +1,4 @@
-from Const import *
+from Global_vars import *
 
 CO = {
     "C":[1],
