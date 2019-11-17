@@ -1,0 +1,21 @@
+meshi.djerassi, shirmo
+===============================================================================
+Meshi Djerassi, ID 315838151, meshi.djerassi@mail.huji.ac.il
+Shir Molina, ID 312535941, shir.molina@mail.huji.ac.il
+===============================================================================
+
+                           Project 6 - Assembler
+                           ----------------------- 
+  
+
+Submitted Files
+---------------
+README - This file.
+Assembler.py (main)
+Parse.py
+Decode.py
+Global_vars.py
+
+Remarks
+-------
+Our program uses a dictionary of operations (keys) connected to it's binary translation (value).
