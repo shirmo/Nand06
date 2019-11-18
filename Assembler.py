@@ -16,7 +16,7 @@ if __name__ == "__main__":
     elif os.path.isdir(path):
         files = glob.iglob(os.path.join(path, "*.asm"))
     else:
-        sys.exit()
+        raise Exception("invalid path")
 
     for file in files:
         pr.fileReader(file)
